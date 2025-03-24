@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; /* 화면 전체 높이를 차지하게 */
+  margin: 0; 
+} 
+
+.main_box {
+  width: 478px;          
+  height: 674px;         
+  border: 2px solid #b7b7b7; /* 검은색 테두리 추가 */
+  overflow: auto;         /* 내용이 넘칠 경우 스크롤을 추가 (세로, 가로 스크롤) */
+  padding: 20px;          /* 내부 여백을 추가하여 내용이 테두리와 겹치지 않게 */
+  border-radius: 5px;
+  text-align: center;
+}
+
+#products-container li img {
+  width: 142px;   /* 고정된 너비 142px */
+  height: 159px;  /* 고정된 높이 159px */
+  object-fit: cover; /* 이미지를 비율에 맞게 잘라서 꽉 채움 */
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+

@@ -10,7 +10,7 @@ function order() {
   const div = document.createElement("div");
   div.innerHTML = `
     <img src="/imgs/${orderItems.productImgFileName}" alt="${orderItems.productName}" />
-    <h3>${orderItems.productName}</h3>
+    <p>${orderItems.productName}</p>
     <p>${orderItems.productPrice}원</p>
     `;
 

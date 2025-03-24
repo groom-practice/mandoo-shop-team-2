@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logInDiv {
+  border: 1px solid #bbb;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.logInDiv > div.inputDiv{
+  display:flex;
+  width:100%;
+  margin: 10px 0;
+}
+.logInDiv > div label {
+  display: inline-block;
+  width: 40%;
+  padding:5px;
+}
+.logInDiv input{
+  width:60%;
+  padding: 10px;
+}
+.btnWrap a {
+  text-decoration: none;
+  color:#000;
+  font-weight: bold;
+}
+.logInBtn{
+  background-color: blue;
+  color: #fff;
+  border:none;
+  padding:10px;
+  border-radius: 5px;
+}
+

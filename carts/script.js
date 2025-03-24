@@ -53,3 +53,11 @@ deleteButton.addEventListener("click", () => {
     cartContainerUl.appendChild(li);
   });
 });
+
+const deleteAllBtn = document.querySelector(".delete-all-button"); // 전체 삭제 버튼 
+
+// 3. 장바구니 전체 삭제 기능
+deleteAllBtn?.addEventListener("click", () => {
+  cartItems.length = 0; 
+  renderCartItems();
+});

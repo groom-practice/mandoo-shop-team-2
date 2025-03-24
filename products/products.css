@@ -107,6 +107,10 @@ a {
   border-radius: 5px;
 }
 
+.addCartBtn:hover {
+  background-color: rgb(50, 50, 150); /* 호버 시 배경색 변화 */
+}
+
 .orderBtn {
   color:rgb(255, 255, 255);
   background-color: rgb(72, 72, 190);
@@ -115,4 +119,8 @@ a {
   font-size: 20px;
   border: none;
   border-radius: 5px;
+}
+
+.orderBtn:hover {
+  background-color: rgb(50, 50, 150); /* 호버 시 배경색 변화 */
 }
